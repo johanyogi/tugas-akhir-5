@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 plt.rcParams["figure.figsize"] = (12,8)
 
 from keras.layers import Dense,Dropout,SimpleRNN,LSTM
